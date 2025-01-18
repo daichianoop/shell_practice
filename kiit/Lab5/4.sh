@@ -1,4 +1,6 @@
 #!/bin/bash
+# WAP to print the SECOND LARGEST and SECOND SMALLEST number in an array
+
 array=(12 3 5 7 19 2 8)
 sorted=($(for num in "${array[@]}"; do echo $num; done | sort -n))
 

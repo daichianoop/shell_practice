@@ -1,0 +1,27 @@
+#!/bin/bash
+# WAP to check if an Array is Pallindrome or not
+
+array=()
+echo "Enter the no of elemets in the array"
+read size
+echo "Enter the elements:"
+for ((i = 0 ; i <= size ; i++))
+
+
+for ((i = 0 ; i))
+
+is_palindrome=1
+len=${#array[@]}
+
+for ((i=0; i<len/2; i++)); do
+    if [[ ${array[i]} -ne ${array[len-i-1]} ]]; then
+        is_palindrome=0
+        break
+    fi
+done
+
+if [[ $is_palindrome -eq 1 ]]; then
+    echo "The array is a palindrome."
+else
+    echo "The array is not a palindrome."
+fi

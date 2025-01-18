@@ -1,5 +1,6 @@
 #!/bin/bash
 
+#Write a program to merge two sorted Arrays into another Sorted Array
 array1=(1 3 5 7)
 array2=(2 4 6 8)
 

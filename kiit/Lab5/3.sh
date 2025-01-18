@@ -1,4 +1,6 @@
 #!/bin/bash
+# WAP to reverse an array and Print it
+
 array=(1 2 3 4 5)
 
 reversed=()
