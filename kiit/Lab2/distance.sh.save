@@ -1,0 +1,13 @@
+#!/bin/bash
+
+    echo "Enter the distance in cm to be converted in Km and m"
+    read cm
+    Km=$((cm / 10000))
+    m=$((cm / 100))#!/bin/bash  
+    # Add two numbers  
+    echo "Enter first number:"  
+    read num1  
+    echo "Enter second number:"  
+    read num2  
+    sum=$((num1 + num2))  
+    echo "The sum of $num1 and $num2 is: $sum"
