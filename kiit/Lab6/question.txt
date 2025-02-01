@@ -1,0 +1,2 @@
+# Question 1. Implement FCFS
+# Question 2. Implement SJF
